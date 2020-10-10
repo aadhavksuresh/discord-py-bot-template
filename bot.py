@@ -3,7 +3,7 @@ from config import discord_client, DISCORD_TOKEN
 
 def main():
     cogs = [
-        
+        "cogs.Basic"
     ]
     for ext in cogs:
         print(f"Loading {ext}...")
