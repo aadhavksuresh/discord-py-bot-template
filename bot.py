@@ -3,6 +3,7 @@ from config import discord_client, DISCORD_TOKEN
 
 def main():
     cogs = [
+        "core.commands",
         "cogs.Basic"
     ]
     for ext in cogs:
